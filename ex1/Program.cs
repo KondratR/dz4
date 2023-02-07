@@ -3,7 +3,7 @@
 // 2, 4 -> 16
 
 
-int PutNumber(string text) 
+int PutNumber(string text)
 {
     System.Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
@@ -12,8 +12,8 @@ int PutNumber(string text)
 int GetStepen(int a, int b)
 {
     int result = 1;
-    
-    for (int i = 1; i<=b; i++)
+
+    for (int i = 1; i <= b; i++)
     {
         result = result * a;
     }
